@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:55:26Z",
+  "sample_index": 2,
+  "ebird_code": "acowoo",
+  "scientific_name": "Melanerpes formicivorus",
+  "common_name": "Acorn Woodpecker",
+  "xc_id": "217736",
+  "query_used": "gen:melanerpes sp:formicivorus grp:birds",
+  "quality": "A",
+  "duration_seconds": 7,
+  "recordist": "Paul Marvin",
+  "country": "United States",
+  "latitude": 32.9063,
+  "longitude": -116.4733,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/217736/download",
+  "local_paths": {
+    "raw_audio": "species\\acowoo\\XC217736\\raw.mp3",
+    "clip_wav": "species\\acowoo\\XC217736\\clip.wav",
+    "features_json": "species\\acowoo\\XC217736\\features.json",
+    "roi_png": "species\\acowoo\\XC217736\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 4650,
+    "end_ms": 19225,
+    "min_freq": 390,
+    "max_freq": 10290,
+    "selected_at": "2026-05-09T07:18:56.064Z"
+  }
+}

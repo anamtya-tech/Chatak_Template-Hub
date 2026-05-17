@@ -1,0 +1,7 @@
+﻿# Raw audio files
+**/raw.mp3
+*.mp3
+
+# OS
+.DS_Store
+Thumbs.db

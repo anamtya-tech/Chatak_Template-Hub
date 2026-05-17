@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:57:17Z",
+  "sample_index": 2,
+  "ebird_code": "casvir",
+  "scientific_name": "Vireo cassinii",
+  "common_name": "Cassin's Vireo",
+  "xc_id": "283560",
+  "query_used": "gen:vireo sp:cassinii grp:birds",
+  "quality": "A",
+  "duration_seconds": 10.0,
+  "recordist": "Eric Hough",
+  "country": "United States",
+  "latitude": 33.6992,
+  "longitude": -114.5032,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Amplification, low and high pass filters used in Audacity.",
+  "download_url_used": "https://xeno-canto.org/283560/download",
+  "local_paths": {
+    "raw_audio": "species\\casvir\\XC283560\\raw.mp3",
+    "clip_wav": "species\\casvir\\XC283560\\clip.wav",
+    "features_json": "species\\casvir\\XC283560\\features.json",
+    "roi_png": "species\\casvir\\XC283560\\roi.png"
+  }
+}

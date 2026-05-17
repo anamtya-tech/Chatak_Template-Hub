@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:08:55Z",
+  "sample_index": 2,
+  "ebird_code": "mouqua",
+  "scientific_name": "Oreortyx pictus",
+  "common_name": "Mountain Quail",
+  "xc_id": "153637",
+  "query_used": "gen:oreortyx sp:pictus grp:birds",
+  "quality": "A",
+  "duration_seconds": 9.0,
+  "recordist": "Paul Marvin",
+  "country": "United States",
+  "latitude": 32.7963,
+  "longitude": -116.48,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/3.0/",
+  "remarks": "chaparral habitat",
+  "download_url_used": "https://xeno-canto.org/153637/download",
+  "local_paths": {
+    "raw_audio": "species\\mouqua\\XC153637\\raw.mp3",
+    "clip_wav": "species\\mouqua\\XC153637\\clip.wav",
+    "features_json": "species\\mouqua\\XC153637\\features.json",
+    "roi_png": "species\\mouqua\\XC153637\\roi.png"
+  }
+}

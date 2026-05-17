@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:01:55Z",
+  "sample_index": 5,
+  "ebird_code": "gnttow",
+  "scientific_name": "Pipilo chlorurus",
+  "common_name": "Green-tailed Towhee",
+  "xc_id": "320328",
+  "query_used": "gen:pipilo sp:chlorurus grp:birds",
+  "quality": "A",
+  "duration_seconds": 3.0,
+  "recordist": "Ted Floyd",
+  "country": "United States",
+  "latitude": 37.6491,
+  "longitude": -105.5924,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "One song bout from a Green-tailed Towhee near the Stewart House at the Zapata Ranch.",
+  "download_url_used": "https://xeno-canto.org/320328/download",
+  "local_paths": {
+    "raw_audio": "species\\gnttow\\XC320328\\raw.mp3",
+    "clip_wav": "species\\gnttow\\XC320328\\clip.wav",
+    "features_json": "species\\gnttow\\XC320328\\features.json",
+    "roi_png": "species\\gnttow\\XC320328\\roi.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:11:50Z",
+  "sample_index": 4,
+  "ebird_code": "orcwar",
+  "scientific_name": "Leiothlypis celata",
+  "common_name": "Orange-crowned Warbler",
+  "xc_id": "287273",
+  "query_used": "gen:leiothlypis sp:celata grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "Ted Floyd",
+  "country": "United States",
+  "latitude": 40.0202,
+  "longitude": -105.15,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "This is the typical one-syllable \"chip note\" of the Orange-crowned Warbler, U-shaped, like an up-side down Swamp Sparrow.",
+  "download_url_used": "https://xeno-canto.org/287273/download",
+  "local_paths": {
+    "raw_audio": "species\\orcwar\\XC287273\\raw.mp3",
+    "clip_wav": "species\\orcwar\\XC287273\\clip.wav",
+    "features_json": "species\\orcwar\\XC287273\\features.json",
+    "roi_png": "species\\orcwar\\XC287273\\roi.png"
+  }
+}

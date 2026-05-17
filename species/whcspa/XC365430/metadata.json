@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:22:02Z",
+  "sample_index": 2,
+  "ebird_code": "whcspa",
+  "scientific_name": "Zonotrichia leucophrys",
+  "common_name": "White-crowned Sparrow",
+  "xc_id": "365430",
+  "query_used": "gen:zonotrichia sp:leucophrys grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Ted Floyd",
+  "country": "United States",
+  "latitude": 40.0441,
+  "longitude": -105.1833,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "A \"Gambel's\" White-crowned Sparrow giving a flight call while perched near Cottonwood Marsh.",
+  "download_url_used": "https://xeno-canto.org/365430/download",
+  "local_paths": {
+    "raw_audio": "species\\whcspa\\XC365430\\raw.mp3",
+    "clip_wav": "species\\whcspa\\XC365430\\clip.wav",
+    "features_json": "species\\whcspa\\XC365430\\features.json",
+    "roi_png": "species\\whcspa\\XC365430\\roi.png"
+  }
+}

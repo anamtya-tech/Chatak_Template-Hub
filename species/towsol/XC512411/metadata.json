@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:18:47Z",
+  "sample_index": 4,
+  "ebird_code": "towsol",
+  "scientific_name": "Myadestes townsendi",
+  "common_name": "Townsend's Solitaire",
+  "xc_id": "512411",
+  "query_used": "gen:myadestes sp:townsendi grp:birds",
+  "quality": "A",
+  "duration_seconds": 15.0,
+  "recordist": "Scott Gravette",
+  "country": "United States",
+  "latitude": 37.7458,
+  "longitude": -105.5043,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Recording slightly amplified. Singing bird perched in top of pinon pine at a distance of approx. 40 feet.",
+  "download_url_used": "https://xeno-canto.org/512411/download",
+  "local_paths": {
+    "raw_audio": "species\\towsol\\XC512411\\raw.mp3",
+    "clip_wav": "species\\towsol\\XC512411\\clip.wav",
+    "features_json": "species\\towsol\\XC512411\\features.json",
+    "roi_png": "species\\towsol\\XC512411\\roi.png"
+  }
+}

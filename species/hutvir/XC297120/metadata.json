@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:05:29Z",
+  "sample_index": 3,
+  "ebird_code": "hutvir",
+  "scientific_name": "Vireo huttoni",
+  "common_name": "Hutton's Vireo",
+  "xc_id": "297120",
+  "query_used": "gen:vireo sp:huttoni grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Paul Marvin",
+  "country": "United States",
+  "latitude": 32.554,
+  "longitude": -117.0852,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/297120/download",
+  "local_paths": {
+    "raw_audio": "species\\hutvir\\XC297120\\raw.mp3",
+    "clip_wav": "species\\hutvir\\XC297120\\clip.wav",
+    "features_json": "species\\hutvir\\XC297120\\features.json",
+    "roi_png": "species\\hutvir\\XC297120\\roi.png"
+  }
+}

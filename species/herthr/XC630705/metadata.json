@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:03:39Z",
+  "sample_index": 3,
+  "ebird_code": "herthr",
+  "scientific_name": "Catharus guttatus",
+  "common_name": "Hermit Thrush",
+  "xc_id": "630705",
+  "query_used": "gen:catharus sp:guttatus grp:birds",
+  "quality": "A",
+  "duration_seconds": 4.0,
+  "recordist": "Thomas G. Graves",
+  "country": "United States",
+  "latitude": 35.2735,
+  "longitude": -120.8837,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Short version of Whine? (Sennheiser ME62 omni mic, 24 inch Roch\u00e9 parabola, Marantz PMD 661).",
+  "download_url_used": "https://xeno-canto.org/630705/download",
+  "local_paths": {
+    "raw_audio": "species\\herthr\\XC630705\\raw.mp3",
+    "clip_wav": "species\\herthr\\XC630705\\clip.wav",
+    "features_json": "species\\herthr\\XC630705\\features.json",
+    "roi_png": "species\\herthr\\XC630705\\roi.png"
+  }
+}

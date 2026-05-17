@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:56:34Z",
+  "sample_index": 1,
+  "ebird_code": "casfin",
+  "scientific_name": "Haemorhous cassinii",
+  "common_name": "Cassin's Finch",
+  "xc_id": "6839",
+  "query_used": "gen:haemorhous sp:cassinii grp:birds",
+  "quality": "A",
+  "duration_seconds": 6,
+  "recordist": "Darrell L. Peterson",
+  "country": "United States",
+  "latitude": null,
+  "longitude": null,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/2.5/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/6839/download",
+  "local_paths": {
+    "raw_audio": "species\\casfin\\XC6839\\raw.mp3",
+    "clip_wav": "species\\casfin\\XC6839\\clip.wav",
+    "features_json": "species\\casfin\\XC6839\\features.json",
+    "roi_png": "species\\casfin\\XC6839\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 25,
+    "end_ms": 19375,
+    "min_freq": 1380,
+    "max_freq": 5760,
+    "selected_at": "2026-05-09T14:12:45.049Z"
+  }
+}

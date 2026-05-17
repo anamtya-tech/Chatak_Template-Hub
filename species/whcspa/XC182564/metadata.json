@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:22:14Z",
+  "sample_index": 4,
+  "ebird_code": "whcspa",
+  "scientific_name": "Zonotrichia leucophrys",
+  "common_name": "White-crowned Sparrow",
+  "xc_id": "182564",
+  "query_used": "gen:zonotrichia sp:leucophrys grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Ian Cruickshank",
+  "country": "Canada",
+  "latitude": 48.5093,
+  "longitude": -123.4537,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/182564/download",
+  "local_paths": {
+    "raw_audio": "species\\whcspa\\XC182564\\raw.mp3",
+    "clip_wav": "species\\whcspa\\XC182564\\clip.wav",
+    "features_json": "species\\whcspa\\XC182564\\features.json",
+    "roi_png": "species\\whcspa\\XC182564\\roi.png"
+  }
+}

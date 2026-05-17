@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:00:21Z",
+  "sample_index": 3,
+  "ebird_code": "dusfly",
+  "scientific_name": "Empidonax oberholseri",
+  "common_name": "Dusky Flycatcher",
+  "xc_id": "268852",
+  "query_used": "gen:empidonax sp:oberholseri grp:birds",
+  "quality": "A",
+  "duration_seconds": 17.0,
+  "recordist": "Richard E. Webster",
+  "country": "United States",
+  "latitude": 31.906,
+  "longitude": -109.1543,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "calls of migrant in mesquite scrub",
+  "download_url_used": "https://xeno-canto.org/268852/download",
+  "local_paths": {
+    "raw_audio": "species\\dusfly\\XC268852\\raw.mp3",
+    "clip_wav": "species\\dusfly\\XC268852\\clip.wav",
+    "features_json": "species\\dusfly\\XC268852\\features.json",
+    "roi_png": "species\\dusfly\\XC268852\\roi.png"
+  }
+}

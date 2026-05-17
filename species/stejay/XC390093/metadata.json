@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:17:35Z",
+  "sample_index": 5,
+  "ebird_code": "stejay",
+  "scientific_name": "Cyanocitta stelleri",
+  "common_name": "Steller's Jay",
+  "xc_id": "390093",
+  "query_used": "gen:cyanocitta sp:stelleri grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Guy Kirwan",
+  "country": "United States",
+  "latitude": 36.4499,
+  "longitude": -121.9271,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Call from a bird that came down to seize food (crisps/potato chips!) from on top of a parked car.",
+  "download_url_used": "https://xeno-canto.org/390093/download",
+  "local_paths": {
+    "raw_audio": "species\\stejay\\XC390093\\raw.mp3",
+    "clip_wav": "species\\stejay\\XC390093\\clip.wav",
+    "features_json": "species\\stejay\\XC390093\\features.json",
+    "roi_png": "species\\stejay\\XC390093\\roi.png"
+  }
+}

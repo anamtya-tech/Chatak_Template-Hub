@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:02:07Z",
+  "sample_index": 1,
+  "ebird_code": "gockin",
+  "scientific_name": "Regulus satrapa",
+  "common_name": "Golden-crowned Kinglet",
+  "xc_id": "942529",
+  "query_used": "gen:regulus sp:satrapa grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Thomas Magarian",
+  "country": "United States",
+  "latitude": 37.2879,
+  "longitude": -75.9207,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/942529/download",
+  "local_paths": {
+    "raw_audio": "species\\gockin\\XC942529\\raw.mp3",
+    "clip_wav": "species\\gockin\\XC942529\\clip.wav",
+    "features_json": "species\\gockin\\XC942529\\features.json",
+    "roi_png": "species\\gockin\\XC942529\\roi.png"
+  }
+}

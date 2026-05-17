@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:55:49Z",
+  "sample_index": 5,
+  "ebird_code": "batpig1",
+  "scientific_name": "Patagioenas fasciata",
+  "common_name": "Band-tailed Pigeon",
+  "xc_id": "749411",
+  "query_used": "gen:patagioenas sp:fasciata grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Kayla Brown",
+  "country": "United States",
+  "latitude": 44.9228,
+  "longitude": -123.7106,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "BTPI wing-claps recorded with a Song Meter 4.",
+  "download_url_used": "https://xeno-canto.org/749411/download",
+  "local_paths": {
+    "raw_audio": "species\\batpig1\\XC749411\\raw.mp3",
+    "clip_wav": "species\\batpig1\\XC749411\\clip.wav",
+    "features_json": "species\\batpig1\\XC749411\\features.json",
+    "roi_png": "species\\batpig1\\XC749411\\roi.png"
+  }
+}

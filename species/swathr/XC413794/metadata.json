@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:17:52Z",
+  "sample_index": 1,
+  "ebird_code": "swathr",
+  "scientific_name": "Catharus ustulatus",
+  "common_name": "Swainson's Thrush",
+  "xc_id": "413794",
+  "query_used": "gen:catharus sp:ustulatus grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Steve Hampton",
+  "country": "United States",
+  "latitude": 38.495,
+  "longitude": -121.695,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/413794/download",
+  "local_paths": {
+    "raw_audio": "species\\swathr\\XC413794\\raw.mp3",
+    "clip_wav": "species\\swathr\\XC413794\\clip.wav",
+    "features_json": "species\\swathr\\XC413794\\features.json",
+    "roi_png": "species\\swathr\\XC413794\\roi.png"
+  }
+}

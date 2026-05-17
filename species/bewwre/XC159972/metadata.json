@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:55:58Z",
+  "sample_index": 1,
+  "ebird_code": "bewwre",
+  "scientific_name": "Thryomanes bewickii",
+  "common_name": "Bewick's Wren",
+  "xc_id": "159972",
+  "query_used": "gen:thryomanes sp:bewickii grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "Ian Cruickshank",
+  "country": "Canada",
+  "latitude": 48.464413,
+  "longitude": -123.373425,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/3.0/",
+  "remarks": "brief burst of song in confrontation between 2 individuals\n\nRecorded on a Marantz PMD661 recorder using a Sennheiser ME66 microphone.",
+  "download_url_used": "https://xeno-canto.org/159972/download",
+  "local_paths": {
+    "raw_audio": "species\\bewwre\\XC159972\\raw.mp3",
+    "clip_wav": "species\\bewwre\\XC159972\\clip.wav",
+    "features_json": "species\\bewwre\\XC159972\\features.json",
+    "roi_png": "species\\bewwre\\XC159972\\roi.png"
+  }
+}

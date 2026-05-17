@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:09:14Z",
+  "sample_index": 5,
+  "ebird_code": "mouqua",
+  "scientific_name": "Oreortyx pictus",
+  "common_name": "Mountain Quail",
+  "xc_id": "170076",
+  "query_used": "gen:oreortyx sp:pictus grp:birds",
+  "quality": "B",
+  "duration_seconds": 10.0,
+  "recordist": "Lance A. M. Benner",
+  "country": "United States",
+  "latitude": 34.32,
+  "longitude": -118.1239,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/3.0/",
+  "remarks": "Natural vocalizations by multiple mountain quail in an area of chaparral.  This area burned in 2009.\r\n\r\nEquipment: Olympus LS-10S, Telinga 22 inch paraboloid, and a Sennheiser ME62 microphone.\r\n\r\nModifications to the file: cropped.",
+  "download_url_used": "https://xeno-canto.org/170076/download",
+  "local_paths": {
+    "raw_audio": "species\\mouqua\\XC170076\\raw.mp3",
+    "clip_wav": "species\\mouqua\\XC170076\\clip.wav",
+    "features_json": "species\\mouqua\\XC170076\\features.json",
+    "roi_png": "species\\mouqua\\XC170076\\roi.png"
+  }
+}

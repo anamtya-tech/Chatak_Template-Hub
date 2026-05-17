@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:21:27Z",
+  "sample_index": 2,
+  "ebird_code": "wewpew",
+  "scientific_name": "Contopus sordidulus",
+  "common_name": "Western Wood-Pewee",
+  "xc_id": "736227",
+  "query_used": "gen:contopus sp:sordidulus grp:birds",
+  "quality": "A",
+  "duration_seconds": 6,
+  "recordist": "Sue Riffe",
+  "country": "United States",
+  "latitude": 38.037,
+  "longitude": -104.9513,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Natural vocalization from a mixed deciduous forest",
+  "download_url_used": "https://xeno-canto.org/736227/download",
+  "local_paths": {
+    "raw_audio": "species\\wewpew\\XC736227\\raw.mp3",
+    "clip_wav": "species\\wewpew\\XC736227\\clip.wav",
+    "features_json": "species\\wewpew\\XC736227\\features.json",
+    "roi_png": "species\\wewpew\\XC736227\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 5325,
+    "end_ms": 11625,
+    "min_freq": 1110,
+    "max_freq": 8250,
+    "selected_at": "2026-05-09T13:38:03.200Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:05:41Z",
+  "sample_index": 5,
+  "ebird_code": "hutvir",
+  "scientific_name": "Vireo huttoni",
+  "common_name": "Hutton's Vireo",
+  "xc_id": "372121",
+  "query_used": "gen:vireo sp:huttoni grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "markbird",
+  "country": "United States",
+  "latitude": 31.7388,
+  "longitude": -110.8911,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Recording filtered and amplified\r\n\r\nBird calling from near top of a 15' evergreen along the trail at Proctor Rd, Madera Canyon (creek bed habitat)\r\n\r\nThis is a cut of a long continuous call series\r\n\r\nVideo (mp4) at https://flic.kr/p/UXCa5r",
+  "download_url_used": "https://xeno-canto.org/372121/download",
+  "local_paths": {
+    "raw_audio": "species\\hutvir\\XC372121\\raw.mp3",
+    "clip_wav": "species\\hutvir\\XC372121\\clip.wav",
+    "features_json": "species\\hutvir\\XC372121\\features.json",
+    "roi_png": "species\\hutvir\\XC372121\\roi.png"
+  }
+}

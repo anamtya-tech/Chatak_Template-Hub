@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:20:21Z",
+  "sample_index": 2,
+  "ebird_code": "warvir",
+  "scientific_name": "Vireo gilvus",
+  "common_name": "Warbling Vireo",
+  "xc_id": "477609",
+  "query_used": "gen:vireo sp:gilvus grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Sue Riffe",
+  "country": "United States",
+  "latitude": 39.5734,
+  "longitude": -84.0131,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Natural vocalization",
+  "download_url_used": "https://xeno-canto.org/477609/download",
+  "local_paths": {
+    "raw_audio": "species\\warvir\\XC477609\\raw.mp3",
+    "clip_wav": "species\\warvir\\XC477609\\clip.wav",
+    "features_json": "species\\warvir\\XC477609\\features.json",
+    "roi_png": "species\\warvir\\XC477609\\roi.png"
+  }
+}

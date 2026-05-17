@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:57:46Z",
+  "sample_index": 1,
+  "ebird_code": "chbchi",
+  "scientific_name": "Poecile rufescens",
+  "common_name": "Chestnut-backed Chickadee",
+  "xc_id": "877495",
+  "query_used": "gen:poecile sp:rufescens grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "Skyler Bol",
+  "country": "United States",
+  "latitude": 46.4646,
+  "longitude": -114.2132,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/877495/download",
+  "local_paths": {
+    "raw_audio": "species\\chbchi\\XC877495\\raw.mp3",
+    "clip_wav": "species\\chbchi\\XC877495\\clip.wav",
+    "features_json": "species\\chbchi\\XC877495\\features.json",
+    "roi_png": "species\\chbchi\\XC877495\\roi.png"
+  }
+}

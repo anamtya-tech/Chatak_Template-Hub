@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:09:24Z",
+  "sample_index": 1,
+  "ebird_code": "naswar",
+  "scientific_name": "Leiothlypis ruficapilla",
+  "common_name": "Nashville Warbler",
+  "xc_id": "1013950",
+  "query_used": "gen:leiothlypis sp:ruficapilla grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Stanislas Wroza",
+  "country": "Canada",
+  "latitude": 48.1413,
+  "longitude": -69.6957,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/1013950/download",
+  "local_paths": {
+    "raw_audio": "species\\naswar\\XC1013950\\raw.mp3",
+    "clip_wav": "species\\naswar\\XC1013950\\clip.wav",
+    "features_json": "species\\naswar\\XC1013950\\features.json",
+    "roi_png": "species\\naswar\\XC1013950\\roi.png"
+  }
+}

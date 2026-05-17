@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:16:49Z",
+  "sample_index": 3,
+  "ebird_code": "spotow",
+  "scientific_name": "Pipilo maculatus",
+  "common_name": "Spotted Towhee",
+  "xc_id": "872846",
+  "query_used": "gen:pipilo sp:maculatus grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "Al\u00e1n Palacios",
+  "country": "Mexico",
+  "latitude": 18.7932,
+  "longitude": -110.9735,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/872846/download",
+  "local_paths": {
+    "raw_audio": "species\\spotow\\XC872846\\raw.mp3",
+    "clip_wav": "species\\spotow\\XC872846\\clip.wav",
+    "features_json": "species\\spotow\\XC872846\\features.json",
+    "roi_png": "species\\spotow\\XC872846\\roi.png"
+  }
+}

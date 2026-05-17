@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:55:47Z",
+  "sample_index": 3,
+  "ebird_code": "annhum",
+  "scientific_name": "Calypte anna",
+  "common_name": "Anna's Hummingbird",
+  "xc_id": "159355",
+  "query_used": "gen:calypte sp:anna grp:birds",
+  "quality": "A",
+  "duration_seconds": 6,
+  "recordist": "Ian Cruickshank",
+  "country": "Canada",
+  "latitude": 48.429528,
+  "longitude": -123.479208,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/3.0/",
+  "remarks": "Recorded on a Marantz PMD661 recorder using a Sennheiser ME66 microphone.",
+  "download_url_used": "https://xeno-canto.org/159355/download",
+  "local_paths": {
+    "raw_audio": "species\\annhum\\XC159355\\raw.mp3",
+    "clip_wav": "species\\annhum\\XC159355\\clip.wav",
+    "features_json": "species\\annhum\\XC159355\\features.json",
+    "roi_png": "species\\annhum\\XC159355\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 200,
+    "end_ms": 19975,
+    "min_freq": 2400,
+    "max_freq": 11940,
+    "selected_at": "2026-05-09T13:07:10.379Z"
+  }
+}

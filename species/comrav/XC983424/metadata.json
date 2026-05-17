@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:58:57Z",
+  "sample_index": 1,
+  "ebird_code": "comrav",
+  "scientific_name": "Corvus corax",
+  "common_name": "Common Raven",
+  "xc_id": "983424",
+  "query_used": "gen:corvus sp:corax grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Stanislas Wroza",
+  "country": "France",
+  "latitude": 48.062,
+  "longitude": -4.7119,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Chasing a Buteo buteo",
+  "download_url_used": "https://xeno-canto.org/983424/download",
+  "local_paths": {
+    "raw_audio": "species\\comrav\\XC983424\\raw.mp3",
+    "clip_wav": "species\\comrav\\XC983424\\clip.wav",
+    "features_json": "species\\comrav\\XC983424\\features.json",
+    "roi_png": "species\\comrav\\XC983424\\roi.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:11:03Z",
+  "sample_index": 4,
+  "ebird_code": "olsfly",
+  "scientific_name": "Contopus cooperi",
+  "common_name": "Olive-sided Flycatcher",
+  "xc_id": "268856",
+  "query_used": "gen:contopus sp:cooperi grp:birds",
+  "quality": "A",
+  "duration_seconds": 12.0,
+  "recordist": "Richard E. Webster",
+  "country": "United States",
+  "latitude": 31.34,
+  "longitude": -109.273,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "calls of a migrant",
+  "download_url_used": "https://xeno-canto.org/268856/download",
+  "local_paths": {
+    "raw_audio": "species\\olsfly\\XC268856\\raw.mp3",
+    "clip_wav": "species\\olsfly\\XC268856\\clip.wav",
+    "features_json": "species\\olsfly\\XC268856\\features.json",
+    "roi_png": "species\\olsfly\\XC268856\\roi.png"
+  }
+}

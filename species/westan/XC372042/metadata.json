@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:20:49Z",
+  "sample_index": 1,
+  "ebird_code": "westan",
+  "scientific_name": "Piranga ludoviciana",
+  "common_name": "Western Tanager",
+  "xc_id": "372042",
+  "query_used": "gen:piranga sp:ludoviciana grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Burton Palmer",
+  "country": "United States",
+  "latitude": 47.3173,
+  "longitude": -120.9852,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Responding to distant call in pine forest. Perched on low branch of tree.Distant call can be heard in recording.Filtered for wind noise in tree branches. Length of recording and intervals are as recorded. Yellow body with black wings (yellow and white band on wing). Red/orange near beak.",
+  "download_url_used": "https://xeno-canto.org/372042/download",
+  "local_paths": {
+    "raw_audio": "species\\westan\\XC372042\\raw.mp3",
+    "clip_wav": "species\\westan\\XC372042\\clip.wav",
+    "features_json": "species\\westan\\XC372042\\features.json",
+    "roi_png": "species\\westan\\XC372042\\roi.png"
+  }
+}

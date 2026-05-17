@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:17:01Z",
+  "sample_index": 5,
+  "ebird_code": "spotow",
+  "scientific_name": "Pipilo maculatus",
+  "common_name": "Spotted Towhee",
+  "xc_id": "256770",
+  "query_used": "gen:pipilo sp:maculatus grp:birds",
+  "quality": "A",
+  "duration_seconds": 3.0,
+  "recordist": "Ted Floyd",
+  "country": "United States",
+  "latitude": 39.9283,
+  "longitude": -105.2723,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Three barely fledged juveniles were nearby. Seemed odd to have the loudly declaiming adult male and the three juveniles together right like that.",
+  "download_url_used": "https://xeno-canto.org/256770/download",
+  "local_paths": {
+    "raw_audio": "species\\spotow\\XC256770\\raw.mp3",
+    "clip_wav": "species\\spotow\\XC256770\\clip.wav",
+    "features_json": "species\\spotow\\XC256770\\features.json",
+    "roi_png": "species\\spotow\\XC256770\\roi.png"
+  }
+}

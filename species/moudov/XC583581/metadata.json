@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:08:20Z",
+  "sample_index": 2,
+  "ebird_code": "moudov",
+  "scientific_name": "Zenaida macroura",
+  "common_name": "Mourning Dove",
+  "xc_id": "583581",
+  "query_used": "gen:zenaida sp:macroura grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "Richard E. Webster",
+  "country": "United States",
+  "latitude": 32.084,
+  "longitude": -109.051,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/583581/download",
+  "local_paths": {
+    "raw_audio": "species\\moudov\\XC583581\\raw.mp3",
+    "clip_wav": "species\\moudov\\XC583581\\clip.wav",
+    "features_json": "species\\moudov\\XC583581\\features.json",
+    "roi_png": "species\\moudov\\XC583581\\roi.png"
+  }
+}

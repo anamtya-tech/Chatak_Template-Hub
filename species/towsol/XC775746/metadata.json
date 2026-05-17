@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:18:35Z",
+  "sample_index": 2,
+  "ebird_code": "towsol",
+  "scientific_name": "Myadestes townsendi",
+  "common_name": "Townsend's Solitaire",
+  "xc_id": "775746",
+  "query_used": "gen:myadestes sp:townsendi grp:birds",
+  "quality": "A",
+  "duration_seconds": 10.0,
+  "recordist": "Richard E. Webster",
+  "country": "United States",
+  "latitude": 31.906,
+  "longitude": -109.1543,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "calls from a vigorous three bird chase involving feeding territories in the redberry junipers; another calling in the background;",
+  "download_url_used": "https://xeno-canto.org/775746/download",
+  "local_paths": {
+    "raw_audio": "species\\towsol\\XC775746\\raw.mp3",
+    "clip_wav": "species\\towsol\\XC775746\\clip.wav",
+    "features_json": "species\\towsol\\XC775746\\features.json",
+    "roi_png": "species\\towsol\\XC775746\\roi.png"
+  }
+}

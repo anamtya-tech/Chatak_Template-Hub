@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:18:54Z",
+  "sample_index": 5,
+  "ebird_code": "towsol",
+  "scientific_name": "Myadestes townsendi",
+  "common_name": "Townsend's Solitaire",
+  "xc_id": "783003",
+  "query_used": "gen:myadestes sp:townsendi grp:birds",
+  "quality": "A",
+  "duration_seconds": 18.0,
+  "recordist": "Patrice Mathieu",
+  "country": "Canada",
+  "latitude": 60.7673,
+  "longitude": -135.4802,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/783003/download",
+  "local_paths": {
+    "raw_audio": "species\\towsol\\XC783003\\raw.mp3",
+    "clip_wav": "species\\towsol\\XC783003\\clip.wav",
+    "features_json": "species\\towsol\\XC783003\\features.json",
+    "roi_png": "species\\towsol\\XC783003\\roi.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:10:44Z",
+  "sample_index": 1,
+  "ebird_code": "olsfly",
+  "scientific_name": "Contopus cooperi",
+  "common_name": "Olive-sided Flycatcher",
+  "xc_id": "489324",
+  "query_used": "gen:contopus sp:cooperi grp:birds",
+  "quality": "A",
+  "duration_seconds": 8.0,
+  "recordist": "Sunny",
+  "country": "Canada",
+  "latitude": 49.396,
+  "longitude": -123.2045,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "The bird sang on the top of a fir tree.",
+  "download_url_used": "https://xeno-canto.org/489324/download",
+  "local_paths": {
+    "raw_audio": "species\\olsfly\\XC489324\\raw.mp3",
+    "clip_wav": "species\\olsfly\\XC489324\\clip.wav",
+    "features_json": "species\\olsfly\\XC489324\\features.json",
+    "roi_png": "species\\olsfly\\XC489324\\roi.png"
+  }
+}

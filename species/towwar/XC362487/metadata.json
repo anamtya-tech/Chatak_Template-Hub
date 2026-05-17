@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:19:20Z",
+  "sample_index": 4,
+  "ebird_code": "towwar",
+  "scientific_name": "Setophaga townsendi",
+  "common_name": "Townsend's Warbler",
+  "xc_id": "362487",
+  "query_used": "gen:setophaga sp:townsendi grp:birds",
+  "quality": "B",
+  "duration_seconds": 7.0,
+  "recordist": "Paul Marvin",
+  "country": "United States",
+  "latitude": 32.5722,
+  "longitude": -117.0812,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "foraging bird",
+  "download_url_used": "https://xeno-canto.org/362487/download",
+  "local_paths": {
+    "raw_audio": "species\\towwar\\XC362487\\raw.mp3",
+    "clip_wav": "species\\towwar\\XC362487\\clip.wav",
+    "features_json": "species\\towwar\\XC362487\\features.json",
+    "roi_png": "species\\towwar\\XC362487\\roi.png"
+  }
+}

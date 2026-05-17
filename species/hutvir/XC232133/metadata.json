@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:05:17Z",
+  "sample_index": 1,
+  "ebird_code": "hutvir",
+  "scientific_name": "Vireo huttoni",
+  "common_name": "Hutton's Vireo",
+  "xc_id": "232133",
+  "query_used": "gen:vireo sp:huttoni grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Peter Boesman",
+  "country": "Mexico",
+  "latitude": 17.25,
+  "longitude": -96.6333333333,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/4.0/",
+  "remarks": "ID certainty 90%. (Archiv. tape 121 side A track 42 seq. A)",
+  "download_url_used": "https://xeno-canto.org/232133/download",
+  "local_paths": {
+    "raw_audio": "species\\hutvir\\XC232133\\raw.mp3",
+    "clip_wav": "species\\hutvir\\XC232133\\clip.wav",
+    "features_json": "species\\hutvir\\XC232133\\features.json",
+    "roi_png": "species\\hutvir\\XC232133\\roi.png"
+  }
+}

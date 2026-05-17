@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:57:11Z",
+  "sample_index": 1,
+  "ebird_code": "casvir",
+  "scientific_name": "Vireo cassinii",
+  "common_name": "Cassin's Vireo",
+  "xc_id": "128912",
+  "query_used": "gen:vireo sp:cassinii grp:birds",
+  "quality": "A",
+  "duration_seconds": 9.0,
+  "recordist": "Thomas G. Graves",
+  "country": "United States",
+  "latitude": 35.4242,
+  "longitude": -120.7375,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/3.0/",
+  "remarks": "Habitat: Oak woodlands, near riparian. I hear in the rhythm of the song: \"Hurry up....Over here.\"",
+  "download_url_used": "https://xeno-canto.org/128912/download",
+  "local_paths": {
+    "raw_audio": "species\\casvir\\XC128912\\raw.mp3",
+    "clip_wav": "species\\casvir\\XC128912\\clip.wav",
+    "features_json": "species\\casvir\\XC128912\\features.json",
+    "roi_png": "species\\casvir\\XC128912\\roi.png"
+  }
+}

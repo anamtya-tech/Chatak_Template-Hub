@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:20:55Z",
+  "sample_index": 2,
+  "ebird_code": "westan",
+  "scientific_name": "Piranga ludoviciana",
+  "common_name": "Western Tanager",
+  "xc_id": "14403",
+  "query_used": "gen:piranga sp:ludoviciana grp:birds",
+  "quality": "A",
+  "duration_seconds": 4.0,
+  "recordist": "Chris Parrish",
+  "country": "United States",
+  "latitude": 31.9045,
+  "longitude": -109.2795,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/2.5/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/14403/download",
+  "local_paths": {
+    "raw_audio": "species\\westan\\XC14403\\raw.mp3",
+    "clip_wav": "species\\westan\\XC14403\\clip.wav",
+    "features_json": "species\\westan\\XC14403\\features.json",
+    "roi_png": "species\\westan\\XC14403\\roi.png"
+  }
+}

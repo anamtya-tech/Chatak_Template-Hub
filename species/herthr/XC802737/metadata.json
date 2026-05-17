@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:03:52Z",
+  "sample_index": 5,
+  "ebird_code": "herthr",
+  "scientific_name": "Catharus guttatus",
+  "common_name": "Hermit Thrush",
+  "xc_id": "802737",
+  "query_used": "gen:catharus sp:guttatus grp:birds",
+  "quality": "A",
+  "duration_seconds": 4.0,
+  "recordist": "Jeff Stewart",
+  "country": "Canada",
+  "latitude": null,
+  "longitude": null,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Millbrook NFC Station. 235 ms, slightly descending.",
+  "download_url_used": "https://xeno-canto.org/802737/download",
+  "local_paths": {
+    "raw_audio": "species\\herthr\\XC802737\\raw.mp3",
+    "clip_wav": "species\\herthr\\XC802737\\clip.wav",
+    "features_json": "species\\herthr\\XC802737\\features.json",
+    "roi_png": "species\\herthr\\XC802737\\roi.png"
+  }
+}

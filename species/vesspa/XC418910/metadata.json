@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:19:36Z",
+  "sample_index": 1,
+  "ebird_code": "vesspa",
+  "scientific_name": "Pooecetes gramineus",
+  "common_name": "Vesper Sparrow",
+  "xc_id": "418910",
+  "query_used": "gen:pooecetes sp:gramineus grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Ted Floyd",
+  "country": "United States",
+  "latitude": 40.0694,
+  "longitude": -105.1575,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "A Vesper Sparrow singing from a trailside shrub in the prairie.",
+  "download_url_used": "https://xeno-canto.org/418910/download",
+  "local_paths": {
+    "raw_audio": "species\\vesspa\\XC418910\\raw.mp3",
+    "clip_wav": "species\\vesspa\\XC418910\\clip.wav",
+    "features_json": "species\\vesspa\\XC418910\\features.json",
+    "roi_png": "species\\vesspa\\XC418910\\roi.png"
+  }
+}

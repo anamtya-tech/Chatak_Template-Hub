@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:22:26Z",
+  "sample_index": 1,
+  "ebird_code": "wilsap",
+  "scientific_name": "Sphyrapicus thyroideus",
+  "common_name": "Williamson's Sapsucker",
+  "xc_id": "104789",
+  "query_used": "gen:sphyrapicus sp:thyroideus grp:birds",
+  "quality": "A",
+  "duration_seconds": 6,
+  "recordist": "Andrew Spencer",
+  "country": "United States",
+  "latitude": 37.007,
+  "longitude": -106.226,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/2.5/",
+  "remarks": "calls from a female bird in mild agitation at my presence.  While giving these calls the bird was somewhat distant, though soon afterwards flew in to where I was.",
+  "download_url_used": "https://xeno-canto.org/104789/download",
+  "local_paths": {
+    "raw_audio": "species\\wilsap\\XC104789\\raw.mp3",
+    "clip_wav": "species\\wilsap\\XC104789\\clip.wav",
+    "features_json": "species\\wilsap\\XC104789\\features.json",
+    "roi_png": "species\\wilsap\\XC104789\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 4075,
+    "end_ms": 14325,
+    "min_freq": 360,
+    "max_freq": 11940,
+    "selected_at": "2026-05-09T13:42:42.122Z"
+  }
+}

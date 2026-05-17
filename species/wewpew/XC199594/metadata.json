@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:21:33Z",
+  "sample_index": 3,
+  "ebird_code": "wewpew",
+  "scientific_name": "Contopus sordidulus",
+  "common_name": "Western Wood-Pewee",
+  "xc_id": "199594",
+  "query_used": "gen:contopus sp:sordidulus grp:birds",
+  "quality": "A",
+  "duration_seconds": 7,
+  "recordist": "Eddy Scheinpflug",
+  "country": "United States",
+  "latitude": 46.8762,
+  "longitude": -113.0448,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/199594/download",
+  "local_paths": {
+    "raw_audio": "species\\wewpew\\XC199594\\raw.mp3",
+    "clip_wav": "species\\wewpew\\XC199594\\clip.wav",
+    "features_json": "species\\wewpew\\XC199594\\features.json",
+    "roi_png": "species\\wewpew\\XC199594\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 850,
+    "end_ms": 14650,
+    "min_freq": 1260,
+    "max_freq": 8520,
+    "selected_at": "2026-05-09T13:39:11.910Z"
+  }
+}

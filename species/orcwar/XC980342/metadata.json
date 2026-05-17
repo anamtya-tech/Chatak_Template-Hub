@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:11:30Z",
+  "sample_index": 1,
+  "ebird_code": "orcwar",
+  "scientific_name": "Leiothlypis celata",
+  "common_name": "Orange-crowned Warbler",
+  "xc_id": "980342",
+  "query_used": "gen:leiothlypis sp:celata grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Matthew L. Brady",
+  "country": "United States",
+  "latitude": 34.4337,
+  "longitude": -119.6211,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Two call notes from a single Orange-crowned Warbler foraging in Coast Live Oak trees in a residential area adjacent to the Ennisbrook Preserve.",
+  "download_url_used": "https://xeno-canto.org/980342/download",
+  "local_paths": {
+    "raw_audio": "species\\orcwar\\XC980342\\raw.mp3",
+    "clip_wav": "species\\orcwar\\XC980342\\clip.wav",
+    "features_json": "species\\orcwar\\XC980342\\features.json",
+    "roi_png": "species\\orcwar\\XC980342\\roi.png"
+  }
+}

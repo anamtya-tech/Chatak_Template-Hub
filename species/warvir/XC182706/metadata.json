@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:20:16Z",
+  "sample_index": 1,
+  "ebird_code": "warvir",
+  "scientific_name": "Vireo gilvus",
+  "common_name": "Warbling Vireo",
+  "xc_id": "182706",
+  "query_used": "gen:vireo sp:gilvus grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Martin St-Michel",
+  "country": "Canada",
+  "latitude": 45.0336,
+  "longitude": -72.5555,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Two agitated individuals. Habitat: bushes, mature deciduous forest, river.",
+  "download_url_used": "https://xeno-canto.org/182706/download",
+  "local_paths": {
+    "raw_audio": "species\\warvir\\XC182706\\raw.mp3",
+    "clip_wav": "species\\warvir\\XC182706\\clip.wav",
+    "features_json": "species\\warvir\\XC182706\\features.json",
+    "roi_png": "species\\warvir\\XC182706\\roi.png"
+  }
+}

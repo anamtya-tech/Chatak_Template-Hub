@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:13:50Z",
+  "sample_index": 4,
+  "ebird_code": "purfin",
+  "scientific_name": "Haemorhous purpureus",
+  "common_name": "Purple Finch",
+  "xc_id": "33265",
+  "query_used": "gen:haemorhous sp:purpureus grp:birds",
+  "quality": "A",
+  "duration_seconds": 2.0,
+  "recordist": "Tayler Brooks",
+  "country": "United States",
+  "latitude": 48.3787,
+  "longitude": -122.4487,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/2.5/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/33265/download",
+  "local_paths": {
+    "raw_audio": "species\\purfin\\XC33265\\raw.mp3",
+    "clip_wav": "species\\purfin\\XC33265\\clip.wav",
+    "features_json": "species\\purfin\\XC33265\\features.json",
+    "roi_png": "species\\purfin\\XC33265\\roi.png"
+  }
+}

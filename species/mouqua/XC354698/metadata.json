@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:09:08Z",
+  "sample_index": 4,
+  "ebird_code": "mouqua",
+  "scientific_name": "Oreortyx pictus",
+  "common_name": "Mountain Quail",
+  "xc_id": "354698",
+  "query_used": "gen:oreortyx sp:pictus grp:birds",
+  "quality": "B",
+  "duration_seconds": 3.0,
+  "recordist": "David Vander Pluym",
+  "country": "United States",
+  "latitude": 38.7246,
+  "longitude": -119.7882,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Young quail flushing from dense chaparral. Family group of about 8 birds same group as XC354696 and XC354697. High Pass Filter run and amplified.",
+  "download_url_used": "https://xeno-canto.org/354698/download",
+  "local_paths": {
+    "raw_audio": "species\\mouqua\\XC354698\\raw.mp3",
+    "clip_wav": "species\\mouqua\\XC354698\\clip.wav",
+    "features_json": "species\\mouqua\\XC354698\\features.json",
+    "roi_png": "species\\mouqua\\XC354698\\roi.png"
+  }
+}

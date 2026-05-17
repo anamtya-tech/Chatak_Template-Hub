@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:02:36Z",
+  "sample_index": 5,
+  "ebird_code": "gockin",
+  "scientific_name": "Regulus satrapa",
+  "common_name": "Golden-crowned Kinglet",
+  "xc_id": "113191",
+  "query_used": "gen:regulus sp:satrapa grp:birds",
+  "quality": "A",
+  "duration_seconds": 8.0,
+  "recordist": "Micah Riegner",
+  "country": "United States",
+  "latitude": 34.6208,
+  "longitude": -112.5566,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/3.0/",
+  "remarks": "This individual was vocalizing from the crown of a Ponderosa Pine close to Granite Basin Lake.",
+  "download_url_used": "https://xeno-canto.org/113191/download",
+  "local_paths": {
+    "raw_audio": "species\\gockin\\XC113191\\raw.mp3",
+    "clip_wav": "species\\gockin\\XC113191\\clip.wav",
+    "features_json": "species\\gockin\\XC113191\\features.json",
+    "roi_png": "species\\gockin\\XC113191\\roi.png"
+  }
+}

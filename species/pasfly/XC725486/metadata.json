@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:12:25Z",
+  "sample_index": 4,
+  "ebird_code": "pasfly",
+  "scientific_name": "Empidonax difficilis",
+  "common_name": "Pacific-slope Flycatcher",
+  "xc_id": "725486",
+  "query_used": "gen:empidonax sp:difficilis grp:birds",
+  "quality": "A",
+  "duration_seconds": 4.0,
+  "recordist": "Bobby Wilcox",
+  "country": "United States",
+  "latitude": 34.2101,
+  "longitude": -113.6902,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "About 5m away in willow dominated riparian area.",
+  "download_url_used": "https://xeno-canto.org/725486/download",
+  "local_paths": {
+    "raw_audio": "species\\pasfly\\XC725486\\raw.mp3",
+    "clip_wav": "species\\pasfly\\XC725486\\clip.wav",
+    "features_json": "species\\pasfly\\XC725486\\features.json",
+    "roi_png": "species\\pasfly\\XC725486\\roi.png"
+  }
+}

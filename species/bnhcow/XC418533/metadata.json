@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:56:07Z",
+  "sample_index": 3,
+  "ebird_code": "bnhcow",
+  "scientific_name": "Molothrus ater",
+  "common_name": "Brown-headed Cowbird",
+  "xc_id": "418533",
+  "query_used": "gen:molothrus sp:ater grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Bobby Wilcox",
+  "country": "United States",
+  "latitude": 36.4387,
+  "longitude": -115.359,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "About 20ft away in large dead tree.",
+  "download_url_used": "https://xeno-canto.org/418533/download",
+  "local_paths": {
+    "raw_audio": "species\\bnhcow\\XC418533\\raw.mp3",
+    "clip_wav": "species\\bnhcow\\XC418533\\clip.wav",
+    "features_json": "species\\bnhcow\\XC418533\\features.json",
+    "roi_png": "species\\bnhcow\\XC418533\\roi.png"
+  }
+}

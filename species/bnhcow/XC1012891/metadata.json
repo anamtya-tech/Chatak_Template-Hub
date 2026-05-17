@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:56:07Z",
+  "sample_index": 4,
+  "ebird_code": "bnhcow",
+  "scientific_name": "Molothrus ater",
+  "common_name": "Brown-headed Cowbird",
+  "xc_id": "1012891",
+  "query_used": "gen:molothrus sp:ater grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Stanislas Wroza",
+  "country": "Canada",
+  "latitude": 46.6102,
+  "longitude": -71.6254,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/1012891/download",
+  "local_paths": {
+    "raw_audio": "species\\bnhcow\\XC1012891\\raw.mp3",
+    "clip_wav": "species\\bnhcow\\XC1012891\\clip.wav",
+    "features_json": "species\\bnhcow\\XC1012891\\features.json",
+    "roi_png": "species\\bnhcow\\XC1012891\\roi.png"
+  }
+}

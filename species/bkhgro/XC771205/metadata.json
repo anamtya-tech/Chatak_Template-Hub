@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:56:03Z",
+  "sample_index": 4,
+  "ebird_code": "bkhgro",
+  "scientific_name": "Pheucticus melanocephalus",
+  "common_name": "Black-headed Grosbeak",
+  "xc_id": "771205",
+  "query_used": "gen:pheucticus sp:melanocephalus grp:birds",
+  "quality": "A",
+  "duration_seconds": 9.0,
+  "recordist": "Richard E. Webster",
+  "country": "United States",
+  "latitude": 31.906,
+  "longitude": -109.1543,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/771205/download",
+  "local_paths": {
+    "raw_audio": "species\\bkhgro\\XC771205\\raw.mp3",
+    "clip_wav": "species\\bkhgro\\XC771205\\clip.wav",
+    "features_json": "species\\bkhgro\\XC771205\\features.json",
+    "roi_png": "species\\bkhgro\\XC771205\\roi.png"
+  }
+}

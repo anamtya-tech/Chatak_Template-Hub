@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:55:58Z",
+  "sample_index": 2,
+  "ebird_code": "bewwre",
+  "scientific_name": "Thryomanes bewickii",
+  "common_name": "Bewick's Wren",
+  "xc_id": "296660",
+  "query_used": "gen:thryomanes sp:bewickii grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "Laura Gooch",
+  "country": "United States",
+  "latitude": 29.2416,
+  "longitude": -103.2971,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "This was an unseen bird which sang this song, or very similar variations, repeatedly. Similar song is common in the area. I believe that it is a Bewick's Wren, but it is different enough from other recordings that I would greatly appreciate some corroboration. Habitat is dry montane scrub, with a significant over-story of oak and evergreen. This recording was made near the edge of the draw above Boot Spring. Recording filtered below 500 Hz.",
+  "download_url_used": "https://xeno-canto.org/296660/download",
+  "local_paths": {
+    "raw_audio": "species\\bewwre\\XC296660\\raw.mp3",
+    "clip_wav": "species\\bewwre\\XC296660\\clip.wav",
+    "features_json": "species\\bewwre\\XC296660\\features.json",
+    "roi_png": "species\\bewwre\\XC296660\\roi.png"
+  }
+}

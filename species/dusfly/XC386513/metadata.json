@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:00:08Z",
+  "sample_index": 1,
+  "ebird_code": "dusfly",
+  "scientific_name": "Empidonax oberholseri",
+  "common_name": "Dusky Flycatcher",
+  "xc_id": "386513",
+  "query_used": "gen:empidonax sp:oberholseri grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "Eric DeFonso",
+  "country": "United States",
+  "latitude": 37.9964,
+  "longitude": -107.2203,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "The \"A\" phrase of Dusky Flycatcher song - from an uncooperative bird in a fragment of brushy and wooded habitat amid forest clearing just under 11,000 ft elevation.",
+  "download_url_used": "https://xeno-canto.org/386513/download",
+  "local_paths": {
+    "raw_audio": "species\\dusfly\\XC386513\\raw.mp3",
+    "clip_wav": "species\\dusfly\\XC386513\\clip.wav",
+    "features_json": "species\\dusfly\\XC386513\\features.json",
+    "roi_png": "species\\dusfly\\XC386513\\roi.png"
+  }
+}

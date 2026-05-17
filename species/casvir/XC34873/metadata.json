@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:57:30Z",
+  "sample_index": 4,
+  "ebird_code": "casvir",
+  "scientific_name": "Vireo cassinii",
+  "common_name": "Cassin's Vireo",
+  "xc_id": "34873",
+  "query_used": "gen:vireo sp:cassinii grp:birds",
+  "quality": "A",
+  "duration_seconds": 16.0,
+  "recordist": "Tayler Brooks",
+  "country": "United States",
+  "latitude": 46.5945,
+  "longitude": -118.2137,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/2.5/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/34873/download",
+  "local_paths": {
+    "raw_audio": "species\\casvir\\XC34873\\raw.mp3",
+    "clip_wav": "species\\casvir\\XC34873\\clip.wav",
+    "features_json": "species\\casvir\\XC34873\\features.json",
+    "roi_png": "species\\casvir\\XC34873\\roi.png"
+  }
+}

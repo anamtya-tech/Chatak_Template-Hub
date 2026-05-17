@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:00:00Z",
+  "sample_index": 5,
+  "ebird_code": "daejun",
+  "scientific_name": "Junco hyemalis",
+  "common_name": "Dark-eyed Junco",
+  "xc_id": "729511",
+  "query_used": "gen:junco sp:hyemalis grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Sunny Tseng",
+  "country": "Canada",
+  "latitude": 54.6692,
+  "longitude": -124.4144,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/729511/download",
+  "local_paths": {
+    "raw_audio": "species\\daejun\\XC729511\\raw.mp3",
+    "clip_wav": "species\\daejun\\XC729511\\clip.wav",
+    "features_json": "species\\daejun\\XC729511\\features.json",
+    "roi_png": "species\\daejun\\XC729511\\roi.png"
+  }
+}

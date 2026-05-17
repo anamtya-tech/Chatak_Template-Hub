@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:14:36Z",
+  "sample_index": 2,
+  "ebird_code": "rebnut",
+  "scientific_name": "Sitta canadensis",
+  "common_name": "Red-breasted Nuthatch",
+  "xc_id": "753160",
+  "query_used": "gen:sitta sp:canadensis grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Sunny Tseng",
+  "country": "Canada",
+  "latitude": 53.9076,
+  "longitude": -122.7234,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/753160/download",
+  "local_paths": {
+    "raw_audio": "species\\rebnut\\XC753160\\raw.mp3",
+    "clip_wav": "species\\rebnut\\XC753160\\clip.wav",
+    "features_json": "species\\rebnut\\XC753160\\features.json",
+    "roi_png": "species\\rebnut\\XC753160\\roi.png"
+  }
+}

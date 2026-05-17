@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:18:41Z",
+  "sample_index": 3,
+  "ebird_code": "towsol",
+  "scientific_name": "Myadestes townsendi",
+  "common_name": "Townsend's Solitaire",
+  "xc_id": "446637",
+  "query_used": "gen:myadestes sp:townsendi grp:birds",
+  "quality": "A",
+  "duration_seconds": 15.0,
+  "recordist": "Ed Pandolfino",
+  "country": "United States",
+  "latitude": 41.5606,
+  "longitude": -121.5266,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/446637/download",
+  "local_paths": {
+    "raw_audio": "species\\towsol\\XC446637\\raw.mp3",
+    "clip_wav": "species\\towsol\\XC446637\\clip.wav",
+    "features_json": "species\\towsol\\XC446637\\features.json",
+    "roi_png": "species\\towsol\\XC446637\\roi.png"
+  }
+}

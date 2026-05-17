@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:01:22Z",
+  "sample_index": 5,
+  "ebird_code": "foxspa",
+  "scientific_name": "Passerella iliaca",
+  "common_name": "Fox Sparrow",
+  "xc_id": "366352",
+  "query_used": "gen:passerella sp:iliaca grp:birds",
+  "quality": "A",
+  "duration_seconds": 5,
+  "recordist": "Roxane Filion",
+  "country": "Canada",
+  "latitude": 48.4868,
+  "longitude": -81.2146,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/366352/download",
+  "local_paths": {
+    "raw_audio": "species\\foxspa\\XC366352\\raw.mp3",
+    "clip_wav": "species\\foxspa\\XC366352\\clip.wav",
+    "features_json": "species\\foxspa\\XC366352\\features.json",
+    "roi_png": "species\\foxspa\\XC366352\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 3925,
+    "end_ms": 19025,
+    "min_freq": 120,
+    "max_freq": 9510,
+    "selected_at": "2026-05-09T14:20:25.322Z"
+  }
+}

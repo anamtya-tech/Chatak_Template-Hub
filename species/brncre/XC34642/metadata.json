@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:56:12Z",
+  "sample_index": 3,
+  "ebird_code": "brncre",
+  "scientific_name": "Certhia americana",
+  "common_name": "Brown Creeper",
+  "xc_id": "34642",
+  "query_used": "gen:certhia sp:americana grp:birds",
+  "quality": "A",
+  "duration_seconds": 8,
+  "recordist": "Andrew Spencer",
+  "country": "United States",
+  "latitude": 31.427052,
+  "longitude": -110.297413,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/2.5/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/34642/download",
+  "local_paths": {
+    "raw_audio": "species\\brncre\\XC34642\\raw.mp3",
+    "clip_wav": "species\\brncre\\XC34642\\clip.wav",
+    "features_json": "species\\brncre\\XC34642\\features.json",
+    "roi_png": "species\\brncre\\XC34642\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 175,
+    "end_ms": 4075,
+    "min_freq": 5880,
+    "max_freq": 10650,
+    "selected_at": "2026-05-09T13:16:39.588Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:10:07Z",
+  "sample_index": 2,
+  "ebird_code": "norfli",
+  "scientific_name": "Colaptes auratus",
+  "common_name": "Northern Flicker",
+  "xc_id": "1062459",
+  "query_used": "gen:colaptes sp:auratus grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "David Darrell-Lambert",
+  "country": "Canada",
+  "latitude": 42.272,
+  "longitude": -81.859,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/1062459/download",
+  "local_paths": {
+    "raw_audio": "species\\norfli\\XC1062459\\raw.mp3",
+    "clip_wav": "species\\norfli\\XC1062459\\clip.wav",
+    "features_json": "species\\norfli\\XC1062459\\features.json",
+    "roi_png": "species\\norfli\\XC1062459\\roi.png"
+  }
+}

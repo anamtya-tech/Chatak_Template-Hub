@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:55:58Z",
+  "sample_index": 3,
+  "ebird_code": "bewwre",
+  "scientific_name": "Thryomanes bewickii",
+  "common_name": "Bewick's Wren",
+  "xc_id": "412862",
+  "query_used": "gen:thryomanes sp:bewickii grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Thomas G. Graves",
+  "country": "United States",
+  "latitude": 34.465,
+  "longitude": -119.7125,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "So familiar, but I had to post this one as a mystery. Thanks for the help. Of course it\u2019s a Bewick\u2019s Wren: I\u2019m so used to these two notes being followed by its song.  I should have mentioned the N. Flicker in the original comments, but it was in the full report as a background species.",
+  "download_url_used": "https://xeno-canto.org/412862/download",
+  "local_paths": {
+    "raw_audio": "species\\bewwre\\XC412862\\raw.mp3",
+    "clip_wav": "species\\bewwre\\XC412862\\clip.wav",
+    "features_json": "species\\bewwre\\XC412862\\features.json",
+    "roi_png": "species\\bewwre\\XC412862\\roi.png"
+  }
+}

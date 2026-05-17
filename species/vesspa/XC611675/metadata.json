@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:20:01Z",
+  "sample_index": 5,
+  "ebird_code": "vesspa",
+  "scientific_name": "Pooecetes gramineus",
+  "common_name": "Vesper Sparrow",
+  "xc_id": "611675",
+  "query_used": "gen:pooecetes sp:gramineus grp:birds",
+  "quality": "A",
+  "duration_seconds": 7.0,
+  "recordist": "Richard E. Webster",
+  "country": "United States",
+  "latitude": 31.864,
+  "longitude": -109.047,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "seeps from a wintering bird on a 0.5 m shrub;",
+  "download_url_used": "https://xeno-canto.org/611675/download",
+  "local_paths": {
+    "raw_audio": "species\\vesspa\\XC611675\\raw.mp3",
+    "clip_wav": "species\\vesspa\\XC611675\\clip.wav",
+    "features_json": "species\\vesspa\\XC611675\\features.json",
+    "roi_png": "species\\vesspa\\XC611675\\roi.png"
+  }
+}

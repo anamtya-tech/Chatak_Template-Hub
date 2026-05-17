@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:05:07Z",
+  "sample_index": 5,
+  "ebird_code": "houwre",
+  "scientific_name": "Troglodytes aedon",
+  "common_name": "House Wren",
+  "xc_id": "974092",
+  "query_used": "gen:troglodytes sp:aedon grp:birds",
+  "quality": "A",
+  "duration_seconds": 6.0,
+  "recordist": "JAYRSON ARAUJO DE OLIVEIRA",
+  "country": "Brazil",
+  "latitude": -8.8322,
+  "longitude": -42.5476,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/974092/download",
+  "local_paths": {
+    "raw_audio": "species\\houwre\\XC974092\\raw.mp3",
+    "clip_wav": "species\\houwre\\XC974092\\clip.wav",
+    "features_json": "species\\houwre\\XC974092\\features.json",
+    "roi_png": "species\\houwre\\XC974092\\roi.png"
+  }
+}

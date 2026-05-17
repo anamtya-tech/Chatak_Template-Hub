@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:04:19Z",
+  "sample_index": 4,
+  "ebird_code": "herwar",
+  "scientific_name": "Setophaga occidentalis",
+  "common_name": "Hermit Warbler",
+  "xc_id": "672695",
+  "query_used": "gen:setophaga sp:occidentalis grp:birds",
+  "quality": "B",
+  "duration_seconds": 5.0,
+  "recordist": "Paul Marvin",
+  "country": "United States",
+  "latitude": 32.554,
+  "longitude": -117.0852,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/672695/download",
+  "local_paths": {
+    "raw_audio": "species\\herwar\\XC672695\\raw.mp3",
+    "clip_wav": "species\\herwar\\XC672695\\clip.wav",
+    "features_json": "species\\herwar\\XC672695\\features.json",
+    "roi_png": "species\\herwar\\XC672695\\roi.png"
+  }
+}

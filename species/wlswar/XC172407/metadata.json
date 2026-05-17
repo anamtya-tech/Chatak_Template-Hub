@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:23:04Z",
+  "sample_index": 2,
+  "ebird_code": "wlswar",
+  "scientific_name": "Cardellina pusilla",
+  "common_name": "Wilson's Warbler",
+  "xc_id": "172407",
+  "query_used": "gen:cardellina sp:pusilla grp:birds",
+  "quality": "A",
+  "duration_seconds": 8,
+  "recordist": "Eric DeFonso",
+  "country": "United States",
+  "latitude": 39.6564,
+  "longitude": -120.5342,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Very brief offering of typical song. Habitat is montane Jeffrey pine forest interspersed with meadows and clearcuts.",
+  "download_url_used": "https://xeno-canto.org/172407/download",
+  "local_paths": {
+    "raw_audio": "species\\wlswar\\XC172407\\raw.mp3",
+    "clip_wav": "species\\wlswar\\XC172407\\clip.wav",
+    "features_json": "species\\wlswar\\XC172407\\features.json",
+    "roi_png": "species\\wlswar\\XC172407\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 2325,
+    "end_ms": 19950,
+    "min_freq": 1440,
+    "max_freq": 11100,
+    "selected_at": "2026-05-09T13:33:44.626Z"
+  }
+}

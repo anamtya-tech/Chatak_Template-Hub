@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:19:14Z",
+  "sample_index": 3,
+  "ebird_code": "towwar",
+  "scientific_name": "Setophaga townsendi",
+  "common_name": "Townsend's Warbler",
+  "xc_id": "159408",
+  "query_used": "gen:setophaga sp:townsendi grp:birds",
+  "quality": "B",
+  "duration_seconds": 5.0,
+  "recordist": "Ian Cruickshank",
+  "country": "Canada",
+  "latitude": 48.319734,
+  "longitude": -123.546288,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/3.0/",
+  "remarks": "Recorded on a Marantz PMD661 recorder using a Sennheiser ME66 microphone.",
+  "download_url_used": "https://xeno-canto.org/159408/download",
+  "local_paths": {
+    "raw_audio": "species\\towwar\\XC159408\\raw.mp3",
+    "clip_wav": "species\\towwar\\XC159408\\clip.wav",
+    "features_json": "species\\towwar\\XC159408\\features.json",
+    "roi_png": "species\\towwar\\XC159408\\roi.png"
+  }
+}

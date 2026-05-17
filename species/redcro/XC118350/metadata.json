@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:15:30Z",
+  "sample_index": 4,
+  "ebird_code": "redcro",
+  "scientific_name": "Loxia curvirostra",
+  "common_name": "Red Crossbill",
+  "xc_id": "118350",
+  "query_used": "gen:loxia sp:curvirostra grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Marco Dragonetti",
+  "country": "Italy",
+  "latitude": 42.8592,
+  "longitude": 11.468,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/3.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/118350/download",
+  "local_paths": {
+    "raw_audio": "species\\redcro\\XC118350\\raw.mp3",
+    "clip_wav": "species\\redcro\\XC118350\\clip.wav",
+    "features_json": "species\\redcro\\XC118350\\features.json",
+    "roi_png": "species\\redcro\\XC118350\\roi.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:56:16Z",
+  "sample_index": 1,
+  "ebird_code": "btywar",
+  "scientific_name": "Setophaga nigrescens",
+  "common_name": "Black-throated Gray Warbler",
+  "xc_id": "153478",
+  "query_used": "gen:setophaga sp:nigrescens grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Paul Marvin",
+  "country": "United States",
+  "latitude": 33.2808,
+  "longitude": -116.4337,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/3.0/",
+  "remarks": "in desert scrub in canyon, migrant",
+  "download_url_used": "https://xeno-canto.org/153478/download",
+  "local_paths": {
+    "raw_audio": "species\\btywar\\XC153478\\raw.mp3",
+    "clip_wav": "species\\btywar\\XC153478\\clip.wav",
+    "features_json": "species\\btywar\\XC153478\\features.json",
+    "roi_png": "species\\btywar\\XC153478\\roi.png"
+  }
+}

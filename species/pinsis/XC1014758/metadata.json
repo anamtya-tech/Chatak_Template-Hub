@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:13:18Z",
+  "sample_index": 5,
+  "ebird_code": "pinsis",
+  "scientific_name": "Spinus pinus",
+  "common_name": "Pine Siskin",
+  "xc_id": "1014758",
+  "query_used": "gen:spinus sp:pinus grp:birds",
+  "quality": "A",
+  "duration_seconds": 9.0,
+  "recordist": "Stanislas Wroza",
+  "country": "Canada",
+  "latitude": 47.3205,
+  "longitude": -71.1411,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "",
+  "download_url_used": "https://xeno-canto.org/1014758/download",
+  "local_paths": {
+    "raw_audio": "species\\pinsis\\XC1014758\\raw.mp3",
+    "clip_wav": "species\\pinsis\\XC1014758\\clip.wav",
+    "features_json": "species\\pinsis\\XC1014758\\features.json",
+    "roi_png": "species\\pinsis\\XC1014758\\roi.png"
+  }
+}

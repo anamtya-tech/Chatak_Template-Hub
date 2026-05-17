@@ -1,0 +1,25 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T16:08:03Z",
+  "sample_index": 5,
+  "ebird_code": "mouchi",
+  "scientific_name": "Poecile gambeli",
+  "common_name": "Mountain Chickadee",
+  "xc_id": "957322",
+  "query_used": "gen:poecile sp:gambeli grp:birds",
+  "quality": "A",
+  "duration_seconds": 5.0,
+  "recordist": "Arjun Dutta",
+  "country": "Canada",
+  "latitude": 51.085,
+  "longitude": -115.3659,
+  "license_url": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+  "remarks": "Slightly but minimally edited.",
+  "download_url_used": "https://xeno-canto.org/957322/download",
+  "local_paths": {
+    "raw_audio": "species\\mouchi\\XC957322\\raw.mp3",
+    "clip_wav": "species\\mouchi\\XC957322\\clip.wav",
+    "features_json": "species\\mouchi\\XC957322\\features.json",
+    "roi_png": "species\\mouchi\\XC957322\\roi.png"
+  }
+}

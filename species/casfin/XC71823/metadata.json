@@ -1,0 +1,32 @@
+{
+  "source": "xeno-canto",
+  "created_at": "2026-04-05T15:56:40Z",
+  "sample_index": 2,
+  "ebird_code": "casfin",
+  "scientific_name": "Haemorhous cassinii",
+  "common_name": "Cassin's Finch",
+  "xc_id": "71823",
+  "query_used": "gen:haemorhous sp:cassinii grp:birds",
+  "quality": "A",
+  "duration_seconds": 5,
+  "recordist": "Richard E Webster",
+  "country": "Mexico",
+  "latitude": 31.014,
+  "longitude": -115.463,
+  "license_url": "//creativecommons.org/licenses/by-nc-nd/2.5/",
+  "remarks": "female-plumaged bird, presumably a one-year-old male",
+  "download_url_used": "https://xeno-canto.org/71823/download",
+  "local_paths": {
+    "raw_audio": "species\\casfin\\XC71823\\raw.mp3",
+    "clip_wav": "species\\casfin\\XC71823\\clip.wav",
+    "features_json": "species\\casfin\\XC71823\\features.json",
+    "roi_png": "species\\casfin\\XC71823\\roi.png"
+  },
+  "best_event": {
+    "start_ms": 1400,
+    "end_ms": 15000,
+    "min_freq": 900,
+    "max_freq": 8490,
+    "selected_at": "2026-05-09T14:12:12.950Z"
+  }
+}
