@@ -1,0 +1,233 @@
+﻿{
+    "createdAt":  "2026-11-16T04:59:46.0265214Z",
+    "group":  "Birds",
+    "samplesPerSpecies":  5,
+    "location":  null,
+    "species":  [
+                    {
+                        "scientificName":  "Corvus corax",
+                        "requestedSamples":  5,
+                        "availableRecordings":  2994,
+                        "taxonomy":  {
+                                         "key":  2482492,
+                                         "nubKey":  2482492,
+                                         "nameKey":  2890894,
+                                         "taxonID":  "gbif:2482492",
+                                         "sourceTaxonKey":  172771727,
+                                         "kingdom":  "Animalia",
+                                         "phylum":  "Chordata",
+                                         "order":  "Passeriformes",
+                                         "family":  "Corvidae",
+                                         "genus":  "Corvus",
+                                         "species":  "Corvus corax",
+                                         "kingdomKey":  1,
+                                         "phylumKey":  44,
+                                         "classKey":  212,
+                                         "orderKey":  729,
+                                         "familyKey":  5235,
+                                         "genusKey":  2482468,
+                                         "speciesKey":  2482492,
+                                         "datasetKey":  "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+                                         "constituentKey":  "7ddf754f-d193-4cc9-b351-99906754a03b",
+                                         "parentKey":  2482468,
+                                         "parent":  "Corvus",
+                                         "scientificName":  "Corvus corax Linnaeus, 1758",
+                                         "canonicalName":  "Corvus corax",
+                                         "vernacularName":  "Common Raven",
+                                         "authorship":  "Linnaeus, 1758",
+                                         "nameType":  "SCIENTIFIC",
+                                         "rank":  "SPECIES",
+                                         "origin":  "SOURCE",
+                                         "taxonomicStatus":  "ACCEPTED",
+                                         "nomenclaturalStatus":  [
+
+                                                                 ],
+                                         "remarks":  "",
+                                         "publishedIn":  "Linnaeus, C. (1758). Systema Naturae per regna tria naturae, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. \u003cem\u003eEditio decima, reformata [10th revised edition], vol. 1: 824 pp. Laurentius Salvius: Holmiae.\u003c/em\u003e",
+                                         "numDescendants":  15,
+                                         "lastCrawled":  "2023-08-22T23:20:59.545+00:00",
+                                         "lastInterpreted":  "2023-08-22T22:19:18.495+00:00",
+                                         "issues":  [
+
+                                                    ],
+                                         "class":  "Aves"
+                                     },
+                        "descriptions":  [
+                                             {
+                                                 "key":  396565727,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "Distribution",
+                                                 "language":  "",
+                                                 "description":  "Breeding regions are NA, MA, PAL. Breeding subregions are widespread.",
+                                                 "source":  "IOC World Bird List, v",
+                                                 "sourceTaxonKey":  165921378
+                                             },
+                                             {
+                                                 "key":  428920154,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "materials_examined",
+                                                 "language":  "eng",
+                                                 "description":  "1 ex.; Turkey, Istanbul Province, Catalca, BahÅayÄ±Å meadow; 2021 - 08 - 28; (Table 6) â¢ 1 ex.; Turkey, Istanbul Province, Catalca, BahÅayÄ±Å meadow; 2021 - 08 - 29; (Table 6).",
+                                                 "source":  "Nakkas Highway Bird Surveys Report 2021",
+                                                 "sourceTaxonKey":  302565927
+                                             },
+                                             {
+                                                 "key":  430710778,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "materials_examined",
+                                                 "language":  "eng",
+                                                 "description":  "1 ex.; Poland, West Pomerania, Gryfino, Banie, Lubanowo; (Table 6) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, from Sosnowo southward to Banie; (Table 6) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, between Baniewice and Swobnica; (Table 6) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, around district road from Banie to Piaseczno; (Table 6) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie; (Table 16) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, Lubanowo; (Table 10) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, from Sosnowo southward to Banie; (Table 10) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, between Baniewice and Swobnica; (Table 10) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, around district road from Banie to Piaseczno; (Table 10) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, Lubanowo; (Table 2) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, from Sosnowo southward to Banie; (Table 2) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, between Baniewice and Swobnica; (Table 2) â¢ 1 ex.; Poland, West Pomerania, Gryfino, Banie, around district road from Banie to Piaseczno; (Table 2).",
+                                                 "source":  "Report on the environmental impact of the project involving a change in the number and parameters of the wind power plants at the planned Banie III wind farm",
+                                                 "sourceTaxonKey":  304185285
+                                             },
+                                             {
+                                                 "key":  462822707,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "materials_examined",
+                                                 "language":  "spa",
+                                                 "description":  "cuervo grande",
+                                                 "source":  "ResoluciÃ³n de 23 de enero de 2023, de la DirecciÃ³n General de Calidad y EvaluaciÃ³n Ambiental, por la que se formula declaraciÃ³n de impacto ambiental del proyecto Â« Parques eÃ³licos Els Plans, de 66 MW, SurÃ³, de 72 MW, y Ferriols, de 72 MW, y sus infraestructuras de evacuaciÃ³n asociadas, en las provincias de Lleida, Tarragona y Barcelona Â»",
+                                                 "sourceTaxonKey":  330560505
+                                             },
+                                             {
+                                                 "key":  462828031,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "description",
+                                                 "language":  "eng",
+                                                 "description":  "DESCRIPTION The remains show the features of a large-sized Corvidae. The species Corvus corax is the largest species of the genus Corvus in the Palearctic, and the size of the two ulnae and the tarsometatarsus fits this species (Tomek \u0026 Bochenski 2000).",
+                                                 "source":  "Bird remains from the Middle Paleolithic levels (MIS 3) of Llonin Cave (PeÃ±amellera Alta, Asturias, Spain)",
+                                                 "sourceTaxonKey":  324791413
+                                             },
+                                             {
+                                                 "key":  462828032,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "discussion",
+                                                 "language":  "eng",
+                                                 "description":  "REMARKS the raven is the biggest passerine bird. It appears thorough all the Iberian Peninsula, and is a generalist bird. It can appear in a wide range of habitats, generally in more open habitats (Marzluff 2019). It appears among other sites in the Iberian Upper Pleistocene sites of Urtiaga, Aitzbitarte, SantimamiÃ±e (Elorza 1990), Amalda (Eastham 1989) El Castillo (SÃ¡nchez-Marco 2018), Praileaitz 1 (Moreno-GarcÃ­a 2017) and Axlor (GÃ³mez-Olivencia et al. 2018).",
+                                                 "source":  "Bird remains from the Middle Paleolithic levels (MIS 3) of Llonin Cave (PeÃ±amellera Alta, Asturias, Spain)",
+                                                 "sourceTaxonKey":  324791413
+                                             },
+                                             {
+                                                 "key":  462828033,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "materials_examined",
+                                                 "language":  "eng",
+                                                 "description":  "MATERIAL. â Three remains were analyzed from CP-VIII (Table 2).",
+                                                 "source":  "Bird remains from the Middle Paleolithic levels (MIS 3) of Llonin Cave (PeÃ±amellera Alta, Asturias, Spain)",
+                                                 "sourceTaxonKey":  324791413
+                                             },
+                                             {
+                                                 "key":  462902187,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "materials_examined",
+                                                 "language":  "eng",
+                                                 "description":  "1 ex.; Georgia, Mtskheta-Mtianeti, Kazbegi, Kobi, lat: 42.55, long: 44.50, elev: 1970; 2018 - 05 - 08; (table).",
+                                                 "source":  "North-South Corridor (Kvesheti-Kobi) Road Project - APPENDIX Y OTHER ECOLOGICAL SURVEYS",
+                                                 "sourceTaxonKey":  304185497
+                                             },
+                                             {
+                                                 "key":  463949586,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "description",
+                                                 "language":  "deu",
+                                                 "description":  "C. ater, dorso caerulescente, cauda subrotundata. Fn. suec. 69. Corvus. Gesn. av. 334. Aldr. orn. l. 12. c .. Jonst. av. 38. t. 16. Will. ornith. 82. t. 18. Raj. av. 39. Alb. av. 2. p. 19. t. 20. Frisch. av. t. 63.",
+                                                 "source":  "Systema Naturae per regna tria naturae: secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis",
+                                                 "sourceTaxonKey":  164810423
+                                             },
+                                             {
+                                                 "key":  463949587,
+                                                 "taxonKey":  2482492,
+                                                 "type":  "distribution",
+                                                 "language":  "deu",
+                                                 "description":  "Habitat in Europa, victitat cadaveribus, furto deditus, loqui addiscit, feris convivalis, clamitans.",
+                                                 "source":  "Systema Naturae per regna tria naturae: secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis",
+                                                 "sourceTaxonKey":  164810423
+                                             }
+                                         ],
+                        "image":  null,
+                        "recordings":  [
+                                           {
+                                               "id":  "828405",
+                                               "recordist":  "Johannes Worona",
+                                               "date":  "2023-08-30",
+                                               "country":  "Germany",
+                                               "locality":  "Berlin-Kreuzberg",
+                                               "quality":  "C",
+                                               "length":  "0:03",
+                                               "license":  "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                                               "sourcePage":  "https://xeno-canto.org/828405",
+                                               "audioSource":  "https://xeno-canto.org/828405/download",
+                                               "audioFile":  "828405.mp3",
+                                               "spectrogramSource":  "https://xeno-canto.org/sounds/spectrograms/GIFBPTEXWL/828405/colour.png",
+                                               "spectrogramFile":  "828405.spectrogram.png"
+                                           },
+                                           {
+                                               "id":  "957626",
+                                               "recordist":  "MERCIER Christophe",
+                                               "date":  "2024-10-12",
+                                               "country":  "France",
+                                               "locality":  "Lande de St Laurent (La Roche-l\u0027Abeille)",
+                                               "quality":  "C",
+                                               "length":  "0:28",
+                                               "license":  "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                                               "sourcePage":  "https://xeno-canto.org/957626",
+                                               "audioSource":  "https://xeno-canto.org/957626/download",
+                                               "audioFile":  "957626.mp3",
+                                               "spectrogramSource":  "https://xeno-canto.org/sounds/spectrograms/CTBGPXUOSF/957626/colour.png",
+                                               "spectrogramFile":  "957626.spectrogram.png"
+                                           },
+                                           {
+                                               "id":  "1063728",
+                                               "recordist":  "Colm Philpott",
+                                               "date":  "2025-08-23",
+                                               "country":  "Ireland",
+                                               "locality":  "Municipal District of Bandon - Kinsale (near  Courtmacsherry), Cork, County Cork",
+                                               "quality":  "C",
+                                               "length":  "0:07",
+                                               "license":  "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                                               "sourcePage":  "https://xeno-canto.org/1063728",
+                                               "audioSource":  "https://xeno-canto.org/1063728/download",
+                                               "audioFile":  "1063728.mp3",
+                                               "spectrogramSource":  "https://xeno-canto.org/sounds/spectrograms/FIMCRHLLRP/1063728/colour.png",
+                                               "spectrogramFile":  "1063728.spectrogram.png"
+                                           },
+                                           {
+                                               "id":  "871444",
+                                               "recordist":  "Thomas Magarian",
+                                               "date":  "2024-01-23",
+                                               "country":  "United States",
+                                               "locality":  "Stony Man Overlook, SNP, Page County, Virginia",
+                                               "quality":  "C",
+                                               "length":  "0:31",
+                                               "license":  "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                                               "sourcePage":  "https://xeno-canto.org/871444",
+                                               "audioSource":  "https://xeno-canto.org/871444/download",
+                                               "audioFile":  "871444.mp3",
+                                               "spectrogramSource":  "https://xeno-canto.org/sounds/spectrograms/GVVNEJJEGA/871444/colour.png",
+                                               "spectrogramFile":  "871444.spectrogram.png"
+                                           },
+                                           {
+                                               "id":  "807165",
+                                               "recordist":  "Piotr Szczypinski",
+                                               "date":  "2017-09-29",
+                                               "country":  "Poland",
+                                               "locality":  "Gmina Dzierzgowo (near  Nowe ÅÄ\u0085czyno), MÅawa County, Masovian Voivodeship",
+                                               "quality":  "C",
+                                               "length":  "0:21",
+                                               "license":  "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+                                               "sourcePage":  "https://xeno-canto.org/807165",
+                                               "audioSource":  "https://xeno-canto.org/807165/download",
+                                               "audioFile":  "807165.mp3",
+                                               "spectrogramSource":  "https://xeno-canto.org/sounds/spectrograms/RWHGTWZNPX/807165/colour.png",
+                                               "spectrogramFile":  "807165.spectrogram.png"
+                                           }
+                                       ],
+                        "issues":  [
+
+                                   ]
+                    }
+                ],
+    "issues":  [
+
+               ]
+}

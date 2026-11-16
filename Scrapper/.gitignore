@@ -1,0 +1,6 @@
+# Keep the bundled Raven demo recordings despite the repository-wide media rule.
+!test-raven/**/*.mp3
+
+# Do not commit generated dictionaries or downloaded media archives.
+*.zip
+xeno-canto-dictionary/

@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f5ef">
+    <title>Fieldnotes — find the sounds of a place</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js" defer></script>
+    <script src="app.js?v=2" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Fieldnotes home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>fieldnotes<span class="brand-period">.</span></span>
+      </a>
+      <span class="topbar-note">India-first · explore anywhere</span>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div class="eyebrow"><span class="eyebrow-line"></span> AN INDIA-FIRST FIELD GUIDE FOR YOUR AUDIO</div>
+        <h1 id="page-title">Every place has<br>its own <em>soundscape.</em></h1>
+        <p class="intro-copy">Start with a place in India—or search anywhere in the world. We’ll find wildlife recorded nearby and help you know what to listen for.</p>
+        <a class="reference-launch" href="reviewer.html?v=2">Try the Raven reference deck <span aria-hidden="true">→</span></a>
+
+        <section class="project-panel" aria-label="Saved projects">
+          <div class="project-panel-heading">
+            <span class="project-icon" aria-hidden="true">▤</span>
+            <div>
+              <h2>My projects</h2>
+              <p>Save a named search and pick up where you left off.</p>
+            </div>
+          </div>
+          <div class="project-controls">
+            <label class="sr-only" for="saved-projects">Saved projects</label>
+            <select id="saved-projects">
+              <option value="">No saved projects yet</option>
+            </select>
+            <button id="load-project" class="secondary-button" type="button" disabled>Load project</button>
+            <button id="delete-project" class="text-button" type="button" disabled>Delete</button>
+          </div>
+          <form id="save-project-form" class="save-project-form">
+            <label class="sr-only" for="project-name">Project name</label>
+            <input id="project-name" type="text" maxlength="80" placeholder="Name this search, e.g. Periyar monsoon survey">
+            <button id="save-project" class="secondary-button" type="submit">Save current search</button>
+          </form>
+          <p id="project-status" class="project-status" role="status" aria-live="polite">Choose a place or click “Use coordinates”, then enter a project name. You can save before loading wildlife results.</p>
+          <div class="dictionary-recovery">
+            <div>
+              <span class="recovery-label">LAST DICTIONARY</span>
+              <p id="dictionary-recovery-status" role="status" aria-live="polite">Open a downloaded ZIP once to make it available here next time.</p>
+            </div>
+            <div class="dictionary-recovery-actions">
+              <button id="resume-last-dictionary" class="secondary-button" type="button" disabled>Resume saved dictionary</button>
+              <button id="open-downloaded-dictionary-home" class="text-button" type="button">Open a ZIP…</button>
+              <button id="forget-last-dictionary" class="text-button is-hidden" type="button">Forget saved ZIP</button>
+            </div>
+            <input id="dictionary-zip-file" type="file" accept=".zip,application/zip" hidden>
+          </div>
+        </section>
+
+        <section class="location-panel" aria-label="Choose a location">
+          <div class="panel-topline">
+            <span class="step-number">01</span>
+            <div>
+              <h2>Where are you listening?</h2>
+              <p>Enter a place or coordinates to get started.</p>
+            </div>
+          </div>
+
+          <div class="mode-switch" role="tablist" aria-label="Location input type">
+            <button class="mode-tab is-active" id="place-tab" type="button" role="tab" aria-selected="true" aria-controls="place-panel">Place name</button>
+            <button class="mode-tab" id="coordinates-tab" type="button" role="tab" aria-selected="false" aria-controls="coordinates-panel">Coordinates</button>
+          </div>
+
+          <form id="place-form" class="location-form" role="tabpanel" aria-labelledby="place-tab">
+            <label class="sr-only" for="place-input">Place name</label>
+            <span class="input-icon" aria-hidden="true">⌖</span>
+            <input id="place-input" name="place" type="search" placeholder="Try Periyar, Kerala" autocomplete="off" required>
+            <button class="primary-button" type="submit">Find this place <span aria-hidden="true">→</span></button>
+          </form>
+
+          <form id="coordinates-form" class="location-form coordinates-form is-hidden" role="tabpanel" aria-labelledby="coordinates-tab">
+            <label class="sr-only" for="latitude-input">Latitude</label>
+            <input id="latitude-input" name="latitude" type="number" step="any" min="-90" max="90" placeholder="Latitude" required>
+            <label class="sr-only" for="longitude-input">Longitude</label>
+            <input id="longitude-input" name="longitude" type="number" step="any" min="-180" max="180" placeholder="Longitude" required>
+            <button class="primary-button" type="submit">Use coordinates <span aria-hidden="true">→</span></button>
+          </form>
+          <p id="location-error" class="form-message is-hidden" role="alert"></p>
+          <div id="place-results" class="place-results is-hidden" role="group" aria-label="Matching places"></div>
+
+          <div class="popular-places" aria-label="Popular Indian listening areas">
+            <span class="popular-places-label">TRY AN INDIAN LISTENING AREA</span>
+            <div class="place-suggestions">
+              <button class="place-suggestion" type="button" data-name="Kaziranga National Park, Assam" data-latitude="26.5775" data-longitude="93.1711">Kaziranga <span>Assam</span></button>
+              <button class="place-suggestion" type="button" data-name="Periyar Tiger Reserve, Kerala" data-latitude="9.4620" data-longitude="77.2360">Periyar <span>Kerala</span></button>
+              <button class="place-suggestion" type="button" data-name="Sundarbans National Park, West Bengal" data-latitude="21.9497" data-longitude="88.8959">Sundarbans <span>West Bengal</span></button>
+              <button class="place-suggestion" type="button" data-name="Gir National Park, Gujarat" data-latitude="21.1240" data-longitude="70.8240">Gir <span>Gujarat</span></button>
+              <button class="place-suggestion" type="button" data-name="Great Himalayan National Park, Himachal Pradesh" data-latitude="31.7400" data-longitude="77.5200">Great Himalayan NP <span>Himachal Pradesh</span></button>
+              <button class="place-suggestion" type="button" data-name="Keoladeo National Park, Rajasthan" data-latitude="27.1590" data-longitude="77.5230">Keoladeo <span>Rajasthan</span></button>
+            </div>
+          </div>
+
+          <div class="map-heading">
+            <div>
+              <span class="popular-places-label">PICK OR FINE-TUNE ON THE MAP</span>
+              <span class="map-instructions">Click the map or drag the pin. The green ring shows your search area.</span>
+            </div>
+            <button id="center-india" class="map-reset" type="button">Back to India</button>
+          </div>
+          <div id="location-map" role="application" aria-label="Map for choosing a wildlife search location"></div>
+          <p class="map-attribution">Map © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a>. Search by place name or choose any point on the map.</p>
+
+          <div id="location-confirmation" class="location-confirmation is-hidden" aria-live="polite">
+            <div class="location-pin" aria-hidden="true">⌖</div>
+            <div class="location-details">
+              <span class="confirmation-label">YOUR LISTENING AREA</span>
+              <strong id="confirmed-place"></strong>
+              <span id="confirmed-coordinates" class="coordinate-text"></span>
+            </div>
+            <label class="radius-control" for="radius-select">
+              <span>Search area</span>
+              <select id="radius-select">
+                <option value="10">10 km</option>
+                <option value="25" selected>25 km</option>
+                <option value="50">50 km</option>
+                <option value="100">100 km</option>
+              </select>
+            </label>
+            <button id="search-species" class="primary-button find-species-button" type="button">Find nearby wildlife <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+      </section>
+
+      <section id="results-section" class="results-section is-hidden" aria-labelledby="results-heading">
+        <div class="results-heading-row">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> YOUR LISTENING GUIDE</div>
+            <h2 id="results-heading">Wildlife around <span id="results-place"></span></h2>
+            <p class="results-subtitle">Species with recorded observations in the selected area. Counts below are biodiversity records, not audio clips.</p>
+          </div>
+          <a id="open-map-link" class="map-link" href="#" target="_blank" rel="noreferrer">View area <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div id="results-status" class="results-status" role="status" aria-live="polite"></div>
+        <section id="dictionary-workflow" class="dictionary-workflow is-hidden" aria-labelledby="dictionary-heading">
+          <div class="dictionary-header">
+            <div>
+              <span class="overview-kicker">SPECIES SELECTION</span>
+              <h3 id="dictionary-heading">Build a sound dictionary</h3>
+              <p id="dictionary-description" class="dictionary-description"></p>
+              <p class="dictionary-description">Check the availability marks, choose species and sample count, then create a ZIP with audio, spectrograms, images and species information where sources provide them.</p>
+            </div>
+            <div class="dictionary-header-actions">
+              <button id="open-downloaded-dictionary" class="secondary-button" type="button">View downloaded ZIP</button>
+              <button id="close-dictionary" class="secondary-button" type="button">Back to overview</button>
+            </div>
+          </div>
+          <div class="dictionary-tools">
+            <div class="selection-actions">
+              <button id="select-common-species" class="text-button" type="button">Select common</button>
+              <span aria-hidden="true">·</span>
+              <button id="select-all-species" class="text-button" type="button">Select all with audio</button>
+              <span aria-hidden="true">·</span>
+              <button id="select-no-species" class="text-button" type="button">Clear selection</button>
+              <span id="selection-count" class="selection-count"></span>
+            </div>
+            <label class="sample-setting" for="samples-per-species">
+              <span>Samples per species</span>
+              <input id="samples-per-species" type="number" min="1" max="20" value="5">
+              <span>(up to 20)</span>
+            </label>
+            <button id="build-dictionary" class="primary-button" type="button" disabled>Create dictionary <span aria-hidden="true">→</span></button>
+          </div>
+          <p id="dictionary-status" class="dictionary-status" role="status" aria-live="polite"></p>
+          <div class="dictionary-column-head" aria-hidden="true">
+            <span>Species</span><span>Audio clips</span><span>Spectrogram</span><span>Image</span><span>Info</span>
+          </div>
+          <div id="dictionary-species" class="dictionary-species"></div>
+          <div id="dictionary-preview" class="dictionary-preview is-hidden">
+            <div class="preview-heading">
+              <div>
+                <h4>Dictionary download</h4>
+                <p id="preview-summary"></p>
+              </div>
+              <button id="view-generated-dictionary" class="secondary-button is-hidden" type="button">View this dictionary</button>
+            </div>
+            <progress id="download-progress" max="100" value="0" aria-label="Dictionary download progress"></progress>
+            <div id="preview-recordings" class="download-log"></div>
+          </div>
+        </section>
+
+        <section id="area-overview" class="area-overview" aria-labelledby="overview-heading">
+          <div class="overview-heading-row">
+            <div>
+              <span class="overview-kicker">AREA AT A GLANCE</span>
+              <h3 id="overview-heading">Wildlife overview</h3>
+            </div>
+            <span id="overview-radius" class="overview-radius"></span>
+          </div>
+          <div id="overview-stats" class="overview-stats"></div>
+          <div class="overview-table-wrap">
+            <table class="overview-table">
+              <thead>
+                <tr>
+                  <th scope="col">Group · explore</th>
+                  <th scope="col">Species found</th>
+                  <th scope="col">GBIF records</th>
+                  <th scope="col">Top 20% · share of records</th>
+                  <th scope="col">Next 50% · share of records</th>
+                </tr>
+              </thead>
+              <tbody id="overview-rows"></tbody>
+            </table>
+          </div>
+          <p class="overview-disclaimer">These are biodiversity occurrence records, not audio calls or clips. The top 20% and next 50% show each species band’s share of species-linked GBIF records and its average records per species. Audio availability is a separate measure and depends on the coverage of the selected recording archive.</p>
+        </section>
+        <div id="species-groups" class="species-groups"></div>
+
+        <section class="audio-note" aria-labelledby="audio-heading">
+          <div class="audio-icon" aria-hidden="true"><span>♫</span></div>
+          <div class="audio-note-copy">
+            <h3 id="audio-heading">Looking for audio recordings?</h3>
+            <p>Add your Xeno-canto API key to check recordings for supported wildlife groups. Coordinate search is approximate (about one degree in each direction); archive coverage varies by group. Species information and images are checked separately through GBIF.</p>
+          </div>
+          <div class="api-key-field">
+            <label for="xeno-key">Xeno-canto API key</label>
+            <input id="xeno-key" type="password" autocomplete="off" placeholder="Enter key to check bird counts">
+            <div class="api-key-actions">
+              <span id="api-key-status" role="status" aria-live="polite">Saved in this browser only.</span>
+              <button id="forget-api-key" class="text-button" type="button">Forget key</button>
+            </div>
+            <span class="api-key-warning">Stored in this browser’s local storage; not encrypted. Don’t use on shared devices.</span>
+          </div>
+        </section>
+        <p class="source-note">Species observations: <a href="https://www.gbif.org/" target="_blank" rel="noreferrer">GBIF</a>. Place search and map: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a>. Bird recordings: <a href="https://xeno-canto.org/" target="_blank" rel="noreferrer">Xeno-canto</a>. Results are suggestions to guide listening, not identifications of your audio.</p>
+      </section>
+      <section id="dictionary-viewer" class="dictionary-viewer is-hidden" aria-labelledby="dictionary-viewer-heading">
+        <div class="dictionary-viewer-heading">
+          <div>
+            <h4 id="dictionary-viewer-heading">Dictionary viewer</h4>
+            <p id="dictionary-viewer-status" role="status" aria-live="polite"></p>
+          </div>
+          <button id="close-dictionary-viewer" class="secondary-button" type="button">Close viewer</button>
+        </div>
+        <iframe id="dictionary-viewer-frame" title="Dictionary species and spectrogram viewer" src="about:blank"></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <span>FIELDNOTES<span class="brand-period">.</span></span>
+      <span>Made for listening across India.</span>
+    </footer>
+  </body>
+</html>
